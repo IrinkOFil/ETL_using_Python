@@ -1,13 +1,3 @@
-#DATA ENGINEER - WRITING DAGs
-
-#Objectives
-#In this assignment you will write a python program that will:
-#- Connect to IBM DB2 data warehouse and identify the last row on it.
-#- Connect to MySQL staging data warehouse and find all rows later than the last row on the datawarehouse.
-#- Insert the new data in the MySQL staging data warehouse into the IBM DB2 production data warehouse.
-
-
-
 # Import libraries required for connecting to mysql
 import mysql.connector
 # Import libraries required for connecting to DB2
